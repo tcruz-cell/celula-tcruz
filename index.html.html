@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elegance Relojería - Inicio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        .titulo {
+            color: rgb(30, 142, 142);
+        }
+        /* Ajuste para que las imágenes del carrusel no se deformen */
+        .carousel-item img {
+            width: 100%;
+            height: 500px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+
+    <div style="text-align: center;" class="my-3"> 
+        <img src="imgs/logo.png" alt="Logo de la empresa" width="380">
+    </div>  
+
+    <nav class="navbar navbar-expand-sm bg-light d-flex justify-content-center border-bottom shadow-sm mb-4">
+        <ul class="navbar-nav d-flex flex-row justify-content-center list-unstyled m-0" style="gap: 30px;">
+            <li class="nav-item"><a class="nav-link text-info font-weight-bold active" href="index.html">INICIO / CLIENTES</a></li>
+            <li class="nav-item"><a class="nav-link text-info" href="productos.html">PRODUCTOS</a></li>
+            <li class="nav-item"><a class="nav-link text-info" href="promociones.html">PROMOCIONES</a></li>
+            <li class="nav-item"><a class="nav-link text-info" href="sucursales.html">SUCURSALES</a></li>
+        </ul>
+    </nav>
+
+    <div class="container mt-4">
+        <div id="demo" class="carousel slide" data-ride="carousel">
+
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+                <li data-target="#demo" data-slide-to="3"></li>
+                <li data-target="#demo" data-slide-to="4"></li>
+                <li data-target="#demo" data-slide-to="5"></li>
+                <li data-target="#demo" data-slide-to="6"></li>
+            </ul>
+          
+            <div class="carousel-inner shadow rounded">
+                <div class="carousel-item active">
+                    <img src="imgs/engranaje.jpg" alt="engranaje">
+                </div>
+                <div class="carousel-item">
+                    <img src="imgs/reloj-mecanico.jpg" alt="reloj-m">
+                </div>
+                <div class="carousel-item">
+                    <img src="imgs/persona1.jpg" alt="persona1">
+                </div>
+                <div class="carousel-item">
+                    <img src="imgs/persona2.jpg" alt="persona2">
+                </div>
+                <div class="carousel-item">
+                    <img src="imgs/reloj1.jpg" alt="reloj1">
+                </div>
+                <div class="carousel-item">
+                    <img src="imgs/reloj2.jpg" alt="reloj2">
+                </div>
+                <div class="carousel-item">
+                    <img src="imgs/coleccion2026.png" alt="coleccion">
+                </div>
+            </div>
+          
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+    </div>
+
+    <div class="container mt-5 mb-5">
+        <div class="row text-center">
+            <div class="col-md-6 mb-4">
+                <h2 class="titulo"><b>MISIÓN</b></h2>
+                <p class="mt-4 text-muted" style="font-size: 18px;">
+                    Ofrecer a nuestros clientes piezas de alta relojería que combinan 
+                    precisión, elegancia y durabilidad, garantizando que cada segundo cuente con estilo.
+                </p>
+            </div>
+
+            <div class="col-md-6 mb-4">
+                <h2 class="titulo"><b>VISIÓN</b></h2>
+                <p class="mt-4 text-muted" style="font-size: 18px;">
+                    Ser la relojería líder y de mayor confianza en la región, reconocida por 
+                    la exclusividad de nuestros catálogos y la excelencia en el servicio postventa.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-light text-center text-muted py-3 border-top mt-5">
+        <p class="mb-0">&copy; 2026 Elegance Relojería - Proyecto Colaborativo UNEMI</p>
+    </footer>
+
+</body>
+</html>
