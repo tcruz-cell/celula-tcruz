@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sucursales - ELEGANCE RELOJERÍA</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <style>
+    body {
+        background-color: #ffffff;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .nombre-empresa {
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        color: rgb(30, 142, 142);
+    }
+
+    nav {
+        border-top: 1px solid #eeeeee;
+        border-bottom: 1px solid #eeeeee;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 13px;
+        font-weight: bold;
+        color: #007bff;
+    }
+
+    .navbar-nav .nav-link:hover {
+        color: rgb(30, 142, 142);
+    }
+
+    .titulo {
+        text-align: center;
+        margin-top: 35px;
+        margin-bottom: 40px;
+        font-weight: bold;
+        color: #000000;
+        letter-spacing: 2px;
+    }
+
+    .sucursal-img {
+        width: 145px;
+        height: 145px;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 3px solid #d6c28a;
+        margin-bottom: 18px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+    }
+
+    .caja-sucursal {
+        border: 1px solid #d6d6d6;
+        padding: 15px 10px;
+        min-height: 140px;
+        background-color: #ffffff;
+        margin-bottom: 25px;
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
+        transition: 0.3s;
+    }
+
+    .caja-sucursal:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.20);
+    }
+
+    .ciudad {
+        font-weight: bold;
+        color: rgb(30, 142, 142);
+        margin-bottom: 10px;
+        letter-spacing: 1px;
+    }
+
+    .direccion {
+        font-size: 13px;
+        line-height: 1.5;
+        color: #222222;
+    }
+</style>
+</head>
+
+<body>
+
+    <div style="text-align: center;" class="mt-3"> 
+        <img src="imgs/logo.png" alt="Logo de la empresa" width="380">
+    </div>
+
+    <h2 class="nombre-empresa">ELEGANCE RELOJERÍA</h2>
+
+    <nav class="navbar navbar-expand-sm bg-light d-flex justify-content-center border-bottom shadow-sm mb-4">
+        <ul class="navbar-nav d-flex flex-row justify-content-center list-unstyled m-0" style="gap: 30px;">
+            <li class="nav-item"><a class="nav-link text-info" href="index.html">INICIO / CLIENTES</a></li>
+            <li class="nav-item"><a class="nav-link text-info" href="productos.html">PRODUCTOS</a></li>
+            <li class="nav-item"><a class="nav-link text-info" href="promociones.html">PROMOCIONES</a></li>
+            <li class="nav-item"><a class="nav-link text-info font-weight-bold active" href="sucursales.html">SUCURSALES</a></li>
+        </ul>
+    </nav>
+
+    <div class="container mt-5 mb-5">
+
+        <h2 class="titulo">NUESTRAS RELOJERÍAS EN EL PAÍS</h2>
+
+        <div class="row justify-content-center text-center">
+
+            <div class="col-sm-6 col-md-4 mb-4">
+                <img src="imgs/sucursal1.jpg" alt="Sucursal Milagro" class="sucursal-img">
+                <div class="caja-sucursal">
+                    <p class="ciudad">MILAGRO</p>
+                    <p class="direccion">
+                        Av. Central y Calle Chirijos<br>
+                        Frente al Parque Central
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4 mb-4">
+                <img src="imgs/sucursal2.jpg" alt="Sucursal Guayaquil" class="sucursal-img">
+                <div class="caja-sucursal">
+                    <p class="ciudad">GUAYAQUIL</p>
+                    <p class="direccion">
+                        Centro Comercial Mall del Sol<br>
+                        Planta Alta, Local 45
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4 mb-4">
+                <img src="imgs/sucursal3.jpg" alt="Sucursal Quito" class="sucursal-img">
+                <div class="caja-sucursal">
+                    <p class="ciudad">QUITO</p>
+                    <p class="direccion">
+                        Av. Amazonas y Naciones Unidas<br>
+                        Centro Comercial CCI
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4 mb-4">
+                <img src="imgs/sucursal4.jpg" alt="Sucursal Cuenca" class="sucursal-img">
+                <div class="caja-sucursal">
+                    <p class="ciudad">CUENCA</p>
+                    <p class="direccion">
+                        Calle Larga 4-12<br>
+                        y Benigno Malo
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4 mb-4">
+                <img src="imgs/sucursal5.jpg" alt="Sucursal Manta" class="sucursal-img">
+                <div class="caja-sucursal">
+                    <p class="ciudad">MANTA</p>
+                    <p class="direccion">
+                        Av. Malecón<br>
+                        frente a la Playa Murciélago
+                    </p>
+                </div>
+            </div>
+
+        </div> </div> <footer class="bg-light text-center text-muted py-3 border-top mt-5">
+        <p class="mb-0">&copy; 2026 Elegance Relojería - Proyecto Colaborativo UNEMI</p>
+    </footer>
+
+</body>
+</html>

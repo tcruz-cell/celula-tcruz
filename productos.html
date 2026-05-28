@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elegance Relojería - Productos</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <style>
+        /* Mantenemos el estilo de las tarjetas para que coincida con tus promociones */
+        .card-producto {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card-producto:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.15) !important;
+        }
+        .img-producto {
+            height: 250px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="text-center my-3"> 
+        <img src="https://images.unsplash.com/photo-1547996160-81dfa63595aa?w=400" alt="Logo Elegance" width="150" class="rounded-circle">
+        <h2 class="navbar-brand" style="font-family: 'Kunstler Script', serif; font-weight: bold; letter-spacing: 2px; font-size: 120px; display: block;">Elegance Relojería</h2>
+    </div>
+
+    <nav class="navbar navbar-expand-sm bg-light justify-content-center border-bottom shadow-sm mb-4 w-100 clearfix" style="display: block; clear: both;">
+        <ul class="navbar-nav d-flex flex-row justify-content-center list-unstyled m-0 p-2" style="gap: 30px; width: 100%;">
+            <li class="nav-item"><a class="nav-link text-info" href="index.html">INICIO / CLIENTES</a></li>
+            <li class="nav-item"><a class="nav-link text-info font-weight-bold active" href="productos.html">PRODUCTOS</a></li>
+            <li class="nav-item"><a class="nav-link text-info" href="promociones.html">PROMOCIONES</a></li>
+            <li class="nav-item"><a class="nav-link text-info" href="sucursales.html">SUCURSALES</a></li>
+        </ul>
+    </nav>
+
+    <div class="container mt-5 mb-5">
+        <h1 class="text-center font-weight-bold mb-5" style="color: #0b586e;">NUESTRO CATÁLOGO EXCLUSIVO</h1>
+
+        <ul class="nav nav-tabs justify-content-center mb-4" id="productTabs" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active font-weight-bold text-secondary" id="caballeros-tab" data-toggle="tab" href="#caballeros" role="tab">Relojes de Caballero</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link font-weight-bold text-secondary" id="damas-tab" data-toggle="tab" href="#damas" role="tab">Relojes de Dama</a>
+            </li>
+        </ul>
+
+        <div class="tab-content" id="productTabsContent">
+             
+            <div class="tab-pane fade show active" id="caballeros" role="tabpanel">
+                <div class="row">
+                    
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 shadow-sm card-producto">
+                            <img src="https://images.unsplash.com/photo-1524592094714-0f0654e20314?w=500" class="card-img-top img-producto" alt="Reloj Ejecutivo">
+                            <div class="card-body text-center d-flex flex-column justify-content-between">
+                                <h5 class="card-title font-weight-bold">Reloj Chrono Ejecutivo</h5>
+                                <p class="card-text text-muted">Cristal de zafiro, cronógrafo completo y correa de cuero genuino.</p>
+                                <p class="font-weight-bold h5 text-dark">$210.00</p>
+                                <button class="btn btn-info btn-block mt-2">Añadir al Carrito</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 shadow-sm card-producto">
+                            <img src="https://images.unsplash.com/photo-1619134778706-7015533a6150?w=500" class="card-img-top img-producto" alt="Reloj Deportivo">
+                            <div class="card-body text-center d-flex flex-column justify-content-between">
+                                <h5 class="card-title font-weight-bold">Reloj Aviador Sport</h5>
+                                <p class="card-text text-muted">Resistente al agua 100m, caja de acero inoxidable y bisel giratorio.</p>
+                                <p class="font-weight-bold h5 text-dark">$185.00</p>
+                                <button class="btn btn-info btn-block mt-2">Añadir al Carrito</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 shadow-sm card-producto">
+                            <img src="https://images.unsplash.com/photo-1547996160-81dfa63595aa?w=500" class="card-img-top img-producto" alt="Reloj Premium">
+                            <div class="card-body text-center d-flex flex-column justify-content-between">
+                                <h5 class="card-title font-weight-bold">Reloj Classic Premium</h5>
+                                <p class="card-text text-muted">Esfera elegante de alta precisión con maquinaria automatizada expuesta.</p>
+                                <p class="font-weight-bold h5 text-dark">$250.00</p>
+                                <button class="btn btn-info btn-block mt-2">Añadir al Carrito</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="tab-pane fade" id="damas" role="tabpanel">
+                <div class="row">
+                    
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 shadow-sm card-producto">
+                            <img src="https://augustberg.com/cdn/shop/collections/10928E22MSL-c.jpg?v=1745694093&width=2048" class="card-img-top img-producto" alt="Reloj Oro Rosa Dama">
+                            <div class="card-body text-center d-flex flex-column justify-content-between">
+                                <h5 class="card-title font-weight-bold">Femme Minimalist Rose</h5>
+                                <p class="card-text text-muted">Esfera ultra delgada en oro rosa brillante y correa de malla suave y cómoda.</p>
+                                <p class="font-weight-bold h5 text-dark">$145.00</p>
+                                <button class="btn btn-info btn-block mt-2">Añadir al Carrito</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 shadow-sm card-producto">
+                            <img src="https://img.kwcdn.com/product/fancy/cc481662-285b-4a41-80dd-941fdc745494.jpg?imageMogr2/auto-orient%7CimageView2/2/w/800/q/70/format/webp" class="card-img-top img-producto" alt="Reloj Luxury Brillantes">
+                            <div class="card-body text-center d-flex flex-column justify-content-between">
+                                <h5 class="card-title font-weight-bold">Elegance Diamond Brilliance</h5>
+                                <p class="card-text text-muted">Esfera con detalles brillantes incrustados y pulsera de acero pulido color plata.</p>
+                                <p class="font-weight-bold h5 text-dark">$195.00</p>
+                                <button class="btn btn-info btn-block mt-2">Añadir al Carrito</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 shadow-sm card-producto">
+                            <img src="https://www.burkerwatches.com/cdn/shop/files/Ruby_petite_gold_burgundy_1_500x500_crop_center.jpg?v=1758042818" class="card-img-top img-producto" alt="Reloj Cuero Clásico Dama">
+                            <div class="card-body text-center d-flex flex-column justify-content-between">
+                                <h5 class="card-title font-weight-bold">Classic Gold & Burgundy Leather</h5>
+                                <p class="card-text text-muted">Diseño retro elegante con caja dorada y correa metálica bañada en oro genuino color vino labrado.</p>
+                                <p class="font-weight-bold h5 text-dark">$130.00</p>
+                                <button class="btn btn-info btn-block mt-2">Añadir al Carrito</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div> </div> <footer class="bg-light text-center text-muted py-3 border-top mt-5">
+        <p class="mb-0">&copy; 2026 Elegance Relojería - Proyecto Colaborativo UNEMI</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
